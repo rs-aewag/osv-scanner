@@ -94,7 +94,7 @@ osv-scanner scan source --lockfile ':/path/to/my:projects/package-lock.json'
 
 ## Git Repository Scanning
 
-OSV-Scanner will automatically scan git submodules and vendored directories for C/C++ code and try to attribute them to specific dependencies and versions. See [C/C++ Scanning](<supported_languages_and_lockfiles#cc-scanning>) for more details.
+OSV-Scanner will automatically scan git submodules and vendored directories for C/C++ code and try to attribute them to specific dependencies and versions. See [C/C++ Scanning](<supported_languages_and_lockfiles.md#cc-scanning>) for more details.
 
 By default, root git directories (i.e. git repositories that are not a submodule of a bigger git repo) are skipped. You can include those repositories by setting the `--include-git-root` flag.
 
